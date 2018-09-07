@@ -1,11 +1,18 @@
 {
   "skills": [
     {
-      "name": "Youtube-Skill",
+      "name": "Youtube Skill",
+      "foldername": "",
       "url": "https://github.com/AIIX/youtube-skill"
     },
     {
-      "name": "Wikipedia-Skill",
+      "name": "Wikipedia Skill",
+      "foldername": "mycroft-wiki.mycroftai",
+      "url": "https://github.com/AIIX/plasma-wiki-skill"
+    },
+    {
+      "name": "Food Wizard Skill",
+      "foldername": "",
       "url": "https://github.com/AIIX/plasma-wiki-skill"
     }
   ]
