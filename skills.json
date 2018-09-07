@@ -8,12 +8,12 @@
     {
       "name": "Wikipedia Skill",
       "foldername": "mycroft-wiki.mycroftai",
-      "url": "https://github.com/AIIX/plasma-wiki-skill"
+      "url": "https://github.com/AIIX/plasma-skill-wiki"
     },
     {
       "name": "Food Wizard Skill",
       "foldername": "",
-      "url": "https://github.com/AIIX/plasma-wiki-skill"
+      "url": "https://github.com/AIIX/food-wizard"
     }
   ]
 }
