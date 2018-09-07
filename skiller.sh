@@ -7,7 +7,7 @@ then
   msm install $1
 else
   cd /opt/mycroft/skills/
-  rm $2
+  rm -rf $2
   cd ~/mycroft-core
   source .venv/bin/activate
   msm install $1
