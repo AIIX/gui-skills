@@ -6,10 +6,9 @@ then
   source .venv/bin/activate
   msm install $1
 else
-  cd /opt/mycroft/skills/
-  rm -rf $2
+  cd /opt/mycroft/skills/ && rm -rf $2
   cd ~/mycroft-core
   source .venv/bin/activate
   msm install $1
-  mv $1.* $2
+  cd /opt/mycroft/skills/ && mv $3.* $2
 fi
