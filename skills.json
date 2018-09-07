@@ -11,6 +11,11 @@
       "url": "https://github.com/AIIX/plasma-skill-wiki"
     },
     {
+      "name": "Pairing Skill",
+      "foldername": "mycroft-pairing.mycroftai",
+      "url": "https://github.com/bhush9/skill-pairing"
+    },
+    {
       "name": "Food Wizard Skill",
       "foldername": "",
       "url": "https://github.com/AIIX/food-wizard"
