@@ -10,5 +10,6 @@ else
   cd ~/mycroft-core
   source .venv/bin/activate
   msm install $1
-  cd /opt/mycroft/skills/ && mv $3.* $2
+  oname=$(echo $1 | awk -F"/" '{print $5}') 
+  cd /opt/mycroft/skills/ && mv $oname.* $2
 fi
