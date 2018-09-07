@@ -19,6 +19,11 @@
       "name": "Food Wizard Skill",
       "foldername": "",
       "url": "https://github.com/AIIX/food-wizard"
+    },
+    {
+      "name": "SameGame Skill",
+      "foldername": "",
+      "url": "https://github.com/davidedmundson/skill-samegame"
     }
   ]
 }
