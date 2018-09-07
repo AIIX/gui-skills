@@ -1,0 +1,12 @@
+{
+  "skills": [
+    {
+      "name": "Youtube-Skill",
+      "url": "https://github.com/AIIX/youtube-skill"
+    },
+    {
+      "name": "Wikipedia-Skill",
+      "url": "https://github.com/AIIX/plasma-wiki-skill"
+    }
+  ]
+}
