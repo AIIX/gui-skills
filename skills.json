@@ -3,30 +3,35 @@
     {
       "name": "Youtube Skill",
       "skillname": "youtube-skill",
+      "authorname": "aiix",
       "foldername": "",
       "url": "https://github.com/AIIX/youtube-skill"
     },
     {
       "name": "Wikipedia Skill",
       "skillname": "mycroft-wiki",
+      "authorname": "mycroftai",
       "foldername": "mycroft-wiki.mycroftai",
       "url": "https://github.com/AIIX/plasma-skill-wiki"
     },
     {
       "name": "Pairing Skill",
       "skillname": "mycroft-pairing",
+      "authorname": "mycroftai",
       "foldername": "mycroft-pairing.mycroftai",
       "url": "https://github.com/bhush9/skill-pairing"
     },
     {
       "name": "Food Wizard Skill",
       "skillname": "food-wizard",
+      "authorname": "aiix",
       "foldername": "",
       "url": "https://github.com/AIIX/food-wizard"
     },
     {
       "name": "SameGame Skill",
       "skillname": "skill-samegame",
+      "authorname": "davidedmundson",
       "foldername": "",
       "url": "https://github.com/davidedmundson/skill-samegame"
     }
