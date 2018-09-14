@@ -6,7 +6,7 @@ then
   source .venv/bin/activate
   msm install $1
   oname=$(echo $1 | awk -F"/" '{print $5}')
-  cd /opt/mycroft/skills/$oname.*/ui/ && mkdir -p /opt/mycroft/skills/ui/skills/$oname/ && mv *.qml /opt/mycroft/skills/ui/skills/$oname
+  cd /opt/mycroft/skills/$oname.*/ui/ && mkdir -p /opt/mycroft/skills/ui/skills/$oname/ && mv * /opt/mycroft/skills/ui/skills/$oname
 else
   cd /opt/mycroft/skills/ && rm -rf $2
   cd ~/mycroft-core
