@@ -4,12 +4,11 @@ if cd /opt/mycroft/skills/$1
 then
 cd /opt/mycroft/skills && rm -rf $1
 oname=$(echo $1 | awk -F"." '{print $1}')
-  if cd /opt/mycroft/skills/ui/skills/$oname
+  if (cd /opt/mycroft/skills/ui/skills/$oname) > /dev/null 2>&1
   then
     cd /opt/mycroft/skills/ui/skills && rm -rf $oname 
     echo "INFO - Removed $oname"
   else
-    echo "INFO - Skill $oname GUI not found"
     echo "INFO - Removed $1"
   fi
 else
