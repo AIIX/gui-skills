@@ -10,6 +10,7 @@ oname=$(echo $1 | awk -F"." '{print $1}')
     echo "INFO - Removed $oname"
   else
     echo "INFO - Skill $oname GUI not found"
+    echo "INFO - Removed $1"
   fi
 else
 echo "INFO - Skill $1 not installed or not found"
