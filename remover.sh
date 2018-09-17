@@ -1,7 +1,16 @@
 #!/bin/bash
-echo $1
-echo "Removing Skill $1"
+echo "INFO - Removing Skill $1"
+if cd /opt/mycroft/skills/$1
+then
 cd /opt/mycroft/skills && rm -rf $1
 oname=$(echo $1 | awk -F"." '{print $1}')
-cd /opt/mycroft/skills/ui/skills && rm -rf $oname 
-echo "Removed $oname"
+  if cd /opt/mycroft/skills/ui/skills/$oname
+  then
+    cd /opt/mycroft/skills/ui/skills && rm -rf $oname 
+    echo "INFO - Removed $oname"
+  else
+    echo "INFO - Skill $oname GUI not found"
+  fi
+else
+echo "INFO - Skill $1 not installed or not found"
+fi
