@@ -28,7 +28,7 @@ else
   if (cd /opt/mycroft/skills/$2/ui/) > /dev/null 2>&1
   then
     echo "INFO - Installing GUI Skill: $gname"
-    cd /opt/mycroft/skills/$2.*/ui/ && mkdir -p /opt/mycroft/skills/ui/skills/$2/ && mv * /opt/mycroft/skills/ui/skills/$gname
+    cd /opt/mycroft/skills/$gname.*/ui/ && mkdir -p /opt/mycroft/skills/ui/skills/$gname/ && mv * /opt/mycroft/skills/ui/skills/$gname
     echo "INFO - Mycroft GUI Skill: $gname Installed"
   else
      echo "INFO - Skill: $gname doesn't have an UI folder skiping UI installation"
