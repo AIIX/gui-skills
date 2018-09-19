@@ -34,6 +34,13 @@
       "authorname": "davidedmundson",
       "foldername": "",
       "url": "https://github.com/davidedmundson/skill-samegame"
+    },
+    {
+      "name": "Spelling Skill",
+      "skillname": "mycroft-spelling",
+      "authorname": "mycroftai",
+      "foldername": "mycroft-spelling.mycroftai",
+      "url": "https://github.com/AIIX/skill-spelling"
     }
   ]
 }
