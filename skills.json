@@ -36,6 +36,13 @@
       "url": "https://github.com/AIIX/food-wizard"
     },
     {
+      "name": "Yelp Places Skill",
+      "skillname": "mycroft-yelp",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/mycroft-yelp"
+    },
+    {
       "name": "SameGame Skill",
       "skillname": "skill-samegame",
       "authorname": "davidedmundson",
