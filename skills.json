@@ -43,6 +43,13 @@
       "url": "https://github.com/AIIX/mycroft-yelp"
     },
     {
+      "name": "Tic-Tac-Toe Game Skill",
+      "skillname": "tictactoe",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/tictactoe"
+    },
+    {
       "name": "SameGame Skill",
       "skillname": "skill-samegame",
       "authorname": "davidedmundson",
