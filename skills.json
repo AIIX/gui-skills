@@ -57,6 +57,13 @@
       "url": "https://github.com/davidedmundson/skill-samegame"
     },
     {
+      "name": "Shopping Demo -Alpha Testing Only-",
+      "skillname": "shopping-demo",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/shopping-demo"
+    },
+    {
       "name": "Spelling Skill",
       "skillname": "mycroft-spelling",
       "authorname": "mycroftai",
