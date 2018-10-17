@@ -57,11 +57,18 @@
       "url": "https://github.com/davidedmundson/skill-samegame"
     },
     {
-      "name": "Shopping Demo -Alpha Testing Only-",
+      "name": "Shopping Demo",
       "skillname": "shopping-demo",
       "authorname": "aiix",
       "foldername": "",
       "url": "https://github.com/AIIX/shopping-demo"
+    },
+    {
+      "name": "Soundcloud Music Player",
+      "skillname": "soundcloud-audio-player",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/soundcloud-audio-player"
     },
     {
       "name": "Spelling Skill",
