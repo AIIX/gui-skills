@@ -76,6 +76,13 @@
       "authorname": "mycroftai",
       "foldername": "mycroft-spelling.mycroftai",
       "url": "https://github.com/AIIX/skill-spelling"
+    },
+    {
+      "name": "Timer Skill",
+      "skillname": "mycroft-timer",
+      "authorname": "mycroftai",
+      "foldername": "mycroft-timer.mycroftai",
+      "url": "https://github.com/AIIX/mycroft-timer"
     }
   ]
 }
