@@ -22,6 +22,13 @@
       "url": "https://github.com/AIIX/plasma-skill-weather"
     },
     {
+      "name": "Weather Skill 2 -Mycroft-",
+      "skillname": "mycroft-weather",
+      "authorname": "mycroftai",
+      "foldername": "mycroft-weather.mycroftai",
+      "url": "https://github.com/AIIX/skill-weather-2"
+    },
+    {
       "name": "Pairing Skill",
       "skillname": "mycroft-pairing",
       "authorname": "mycroftai",
