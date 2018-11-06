@@ -29,6 +29,13 @@
       "url": "https://github.com/AIIX/skill-weather-2"
     },
     {
+      "name": "Wikidata Skill",
+      "skillname": "skill-wikidata",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/skill-wikidata"
+    },
+    {
       "name": "Pairing Skill",
       "skillname": "mycroft-pairing",
       "authorname": "mycroftai",
