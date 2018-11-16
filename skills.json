@@ -8,6 +8,13 @@
       "url": "https://github.com/AIIX/youtube-skill"
     },
     {
+      "name": "News Skill",
+      "skillname": "news-skill",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/news-skill"
+    },
+    {
       "name": "Wikipedia Skill",
       "skillname": "mycroft-wiki",
       "authorname": "mycroftai",
