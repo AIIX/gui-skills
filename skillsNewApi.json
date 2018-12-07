@@ -1,1 +1,44 @@
-
+{
+  "skills": [
+    {
+      "name": "Youtube Skill",
+      "skillname": "youtube-skill",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/youtube-skill",
+      "branch": "newapi"
+    },
+    {
+      "name": "Weather Skill",
+      "skillname": "mycroft-weather",
+      "authorname": "mycroftai",
+      "foldername": "mycroft-weather.mycroftai",
+      "url": "https://github.com/AIIX/plasma-skill-weather",
+      "branch": "newapi"
+    },
+    {
+      "name": "Wikidata Skill",
+      "skillname": "skill-wikidata",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/skill-wikidata",
+      "branch": "newapi"
+    },
+    {
+      "name": "Shopping Demo",
+      "skillname": "shopping-demo",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/shopping-demo",
+      "branch": "newapi"
+    },
+    {
+      "name": "Soundcloud Music Player",
+      "skillname": "soundcloud-audio-player",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/soundcloud-audio-player",
+      "branch": "newapi"
+    }
+  ]
+}
