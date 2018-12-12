@@ -9,6 +9,14 @@
       "branch": "newapi"
     },
     {
+      "name": "Startup Wifi Skill",
+      "skillname": "startup-skill",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/startup-skill",
+      "branch": "master"
+    },
+    {
       "name": "Weather Skill",
       "skillname": "mycroft-weather",
       "authorname": "mycroftai",
