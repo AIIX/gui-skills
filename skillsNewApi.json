@@ -17,7 +17,7 @@
       "branch": "master"
     },
     {
-      "name": "Weather Skill",
+      "name": "Aix Weather Skill",
       "skillname": "mycroft-weather",
       "authorname": "mycroftai",
       "foldername": "mycroft-weather.mycroftai",
@@ -50,9 +50,9 @@
     },
     {
       "name": "Mark II System",
-      "skillname": "mycroft-mark-2",
+      "skillname": "skill-mark-2",
       "authorname": "mycroftai",
-      "foldername": "",
+      "foldername": "mycroft-mark-2.mycroftai",
       "url": "https://github.com/mycroftai/skill-mark-2",
       "branch": "master"
     }  ]
