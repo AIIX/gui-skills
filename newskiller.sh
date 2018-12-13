@@ -7,15 +7,9 @@ then
   source .venv/bin/activate
   msm install $1
   oname=$(echo $1 | awk -F"/" '{print $5}')
-  if (cd /opt/mycroft/skills/$oname.*/ui/) > /dev/null 2>&1 
-  then
-     echo "INFO - Installing GUI Skill: $oname"
-     cd /opt/mycroft/skills/$oname.*/ && git checkout $3 && git reset --hard origin/$3
-     echo "INFO - Mycroft GUI Skill: $oname Installed"
-  else
-     echo "INFO - Skill: $oname doesn't have an UI folder skiping UI installation"
-     echo "INFO - Mycroft Skill: $oname Installed"
-  fi
+  echo "INFO - Installing GUI Skill: $oname"
+  cd /opt/mycroft/skills/$oname.*/ && git checkout $3 && git reset --hard origin/$3
+  echo "INFO - Mycroft GUI Skill: $oname Installed"
 ##Stage2 Replace Orginal Skill
 else
   cd /opt/mycroft/skills/ && rm -rf $2
