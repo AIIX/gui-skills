@@ -28,7 +28,7 @@
       "name": "Mycroft Weather Skill",
       "skillname": "mycroft-weather",
       "authorname": "mycroftai",
-      "foldername": "mycroft-weather.mycroftai",
+      "foldername": "",
       "url": "https://github.com/MycroftAI/skill-weather",
       "branch": "feature/gui"
     },
@@ -60,7 +60,7 @@
       "name": "Mark II System",
       "skillname": "mycroft-mark-2",
       "authorname": "mycroftai",
-      "foldername": "mycroft-mark-2.mycroftai",
+      "foldername": "",
       "url": "https://github.com/mycroftai/skill-mark-2",
       "branch": "master"
     }  ]
