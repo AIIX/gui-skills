@@ -10,7 +10,7 @@ then
   if (cd /opt/mycroft/skills/$oname.*/ui/) > /dev/null 2>&1 
   then
      echo "INFO - Installing GUI Skill: $oname"
-     cd /opt/mycroft/skills/$oname.*/ && git checkout newapi && git reset --hard origin/newapi
+     cd /opt/mycroft/skills/$oname.*/ && git checkout $3 && git reset --hard origin/$3
      echo "INFO - Mycroft GUI Skill: $oname Installed"
   else
      echo "INFO - Skill: $oname doesn't have an UI folder skiping UI installation"
@@ -28,7 +28,7 @@ else
   if (cd /opt/mycroft/skills/$2/ui/) > /dev/null 2>&1
   then
     echo "INFO - Installing GUI Skill: $gname"
-    cd /opt/mycroft/skills/$gname.*/ && git checkout newapi && git reset --hard origin/newapi
+    cd /opt/mycroft/skills/$gname.*/ && git checkout $3 && git reset --hard origin/$3
     echo "INFO - Mycroft GUI Skill: $gname Installed"
   else
      echo "INFO - Skill: $gname doesn't have an UI folder skiping UI installation"
