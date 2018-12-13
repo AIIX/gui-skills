@@ -25,6 +25,14 @@
       "branch": "newapi"
     },
     {
+      "name": "Mycroft Weather Skill",
+      "skillname": "mycroft-weather",
+      "authorname": "mycroftai",
+      "foldername": "mycroft-weather.mycroftai",
+      "url": "https://github.com/MycroftAI/skill-weather",
+      "branch": "feature/gui"
+    },
+    {
       "name": "Wikidata Skill",
       "skillname": "skill-wikidata",
       "authorname": "aiix",
@@ -50,7 +58,7 @@
     },
     {
       "name": "Mark II System",
-      "skillname": "skill-mark-2",
+      "skillname": "mycroft-mark-2",
       "authorname": "mycroftai",
       "foldername": "mycroft-mark-2.mycroftai",
       "url": "https://github.com/mycroftai/skill-mark-2",
