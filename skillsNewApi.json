@@ -47,6 +47,13 @@
       "foldername": "",
       "url": "https://github.com/AIIX/soundcloud-audio-player",
       "branch": "newapi"
-    }
-  ]
+    },
+    {
+      "name": "Mark II System",
+      "skillname": "mycroft-mark-2",
+      "authorname": "mycroftai",
+      "foldername": "",
+      "url": "https://github.com/mycroftai/skill-mark-2",
+      "branch": "master"
+    }  ]
 }
