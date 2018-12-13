@@ -58,7 +58,7 @@
     },
     {
       "name": "Mark II System",
-      "skillname": "mycroft-mark-2",
+      "skillname": "skill-mark-2",
       "authorname": "mycroftai",
       "foldername": "",
       "url": "https://github.com/mycroftai/skill-mark-2",
