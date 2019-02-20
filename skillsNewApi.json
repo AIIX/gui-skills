@@ -33,7 +33,7 @@
       "authorname": "mycroftai",
       "foldername": "",
       "url": "https://github.com/MycroftAI/skill-weather",
-      "branch": "feature/gui",
+      "branch": "feature/mark2",
       "warning": "Replaces default installed mycroft-weather skill"
     },
     {
@@ -61,6 +61,24 @@
       "foldername": "",
       "url": "https://github.com/AIIX/soundcloud-audio-player",
       "branch": "newapi",
+      "warning": ""
+    },
+    {
+      "name": "News Skill",
+      "skillname": "news-skill",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/news-skill",
+      "branch": "master",
+      "warning": ""
+    },
+    {
+      "name": "KDE RSS Feed Skill",
+      "skillname": "kde-news-skill",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/kde-news-skill",
+      "branch": "master",
       "warning": ""
     },
     {
