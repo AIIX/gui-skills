@@ -19,22 +19,13 @@
       "warning": ""
     },
     {
-      "name": "Aix Weather Skill",
-      "skillname": "mycroft-weather",
-      "authorname": "mycroftai",
-      "foldername": "mycroft-weather.mycroftai",
-      "url": "https://github.com/AIIX/plasma-skill-weather",
-      "branch": "newapi",
-      "warning": "Replaces default installed mycroft-weather skill"
-    },
-    {
       "name": "Mycroft Weather Skill",
       "skillname": "mycroft-weather",
       "authorname": "mycroftai",
       "foldername": "",
       "url": "https://github.com/MycroftAI/skill-weather",
       "branch": "feature/mark2",
-      "warning": "Replaces default installed mycroft-weather skill"
+      "warning": ""
     },
     {
       "name": "Wikidata Skill",
