@@ -10,3 +10,6 @@ echo "INFO - Installing Requirements Workaround"
 source /opt/mycroft/.venv/bin/activate
 pip install -r requirements.txt
 echo "INFO - Installed Requirements"
+echo "INFO - Refreshing Skill"
+touch __init__.py
+echo "INFO - Skill Installation Completed"
