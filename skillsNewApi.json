@@ -73,6 +73,15 @@
       "warning": ""
     },
     {
+      "name": "Food Wizard Skill",
+      "skillname": "food-wizard",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/food-wizard",
+      "branch": "master",
+      "warning": ""
+    },
+    {
       "name": "Mark II System",
       "skillname": "skill-mark-2",
       "authorname": "mycroftai",
