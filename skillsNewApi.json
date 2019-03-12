@@ -82,6 +82,15 @@
       "warning": ""
     },
     {
+      "name": "Tic Tac Toe Game",
+      "skillname": "tictactoe",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/tictactoe",
+      "branch": "master",
+      "warning": ""
+    },
+    {
       "name": "Mark II System",
       "skillname": "skill-mark-2",
       "authorname": "mycroftai",
