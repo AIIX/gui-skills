@@ -91,6 +91,15 @@
       "warning": ""
     },
     {
+      "name": "Xenon Platform",
+      "skillname": "xenon-platform",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/xenon-platform",
+      "branch": "master",
+      "warning": ""
+    },
+    {
       "name": "Mark II System",
       "skillname": "skill-mark-2",
       "authorname": "mycroftai",
