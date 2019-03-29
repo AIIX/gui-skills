@@ -91,6 +91,15 @@
       "warning": ""
     },
     {
+      "name": "Minihome Platform",
+      "skillname": "mycroft-skill-minihome",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/mycroft-skill-minihome",
+      "branch": "master",
+      "warning": ""
+    },
+    {
       "name": "Xenon Platform",
       "skillname": "xenon-platform",
       "authorname": "aiix",
