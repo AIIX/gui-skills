@@ -1,5 +1,14 @@
 {
   "skills": [
+     {
+      "name": "GUI Examples Skill",
+      "skillname": "Skill-Gui-Examples",
+      "authorname": "aiix",
+      "foldername": "",
+      "url": "https://github.com/AIIX/Skill-Gui-Examples",
+      "branch": "master",
+      "warning": ""
+    },
     {
       "name": "Youtube Skill",
       "skillname": "youtube-skill",
