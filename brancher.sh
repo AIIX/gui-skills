@@ -7,7 +7,7 @@ git fetch
 git checkout $2 && git reset --hard origin/$2
 echo "INFO - Mycroft GUI Branch Installed"
 echo "INFO - Installing Requirements Workaround"
-if [ -d "/opt/mycroft/.venv/bin/" ]; then
+if [ -d /opt/mycroft/.venv/bin/ ]; then
   source /opt/mycroft/.venv/bin/activate
 else
   source ~/mycroft-core/.venv/bin/activate
