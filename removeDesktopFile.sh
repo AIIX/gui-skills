@@ -5,6 +5,7 @@ then
 cd /opt/mycroft/skills/$1/res/desktop/
 echo "Fetching Desktop File Name"
 desktopFileName="*.desktop"
-echo "Info - Removing Skill Desktop File $desktopFileName"
-rm ~/.local/share/applications/$desktopFileName
+founddname=$(echo $desktopFileName)
+echo "Info - Removing Skill Desktop File $founddname"
+rm ~/.local/share/applications/$founddname
 fi
