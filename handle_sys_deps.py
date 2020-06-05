@@ -19,8 +19,9 @@ if exists(yml_path):
         for k in range(len(sys_keys)):
             if sys_keys[k] in info['dependencies']['system'].keys():
                 extract_deps = (info['dependencies']['system'].get('all'))
+                print("Required To Install: " + extract_deps)
                 deps = "pkexec pako install {0}".format(extract_deps)
-                subprocess.Popen(deps, shell=True)
+                subprocess.run(deps, shell=True)
             else:
                 print('a valid manifest.yml not found')
 
