@@ -5,6 +5,8 @@ import re
 import sys
 from os.path import exists, join, basename, dirname, isfile
 
+print("got path")
+print(sys.argv[1])
 yml_path = sys.argv[1] + "manifest.yml"
 sys_keys = []
 if exists(yml_path):
