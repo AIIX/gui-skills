@@ -22,7 +22,7 @@ if exists(yml_path):
                 print("Required To Install: " + extract_deps)
                 
                 deps = "pako install {0}".format(extract_deps)
-                subprocess.run(deps, shell=True, input=b'y\n', encoding='ascii')
+                subprocess.run(deps, shell=True, input='y\n', encoding='ascii')
             else:
                 print('a valid manifest.yml not found')
 
