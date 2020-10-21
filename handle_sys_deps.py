@@ -21,7 +21,7 @@ if exists(yml_path):
                 extract_deps = (info['dependencies']['system'].get('all'))
                 print("Required To Install: " + extract_deps)
                 
-                deps = "pako install {0}".format(extract_deps)
+                deps = "sudo apt-get install -y {0}".format(extract_deps)
                 subprocess.run(deps, shell=True, input='y\n', encoding='ascii')
             else:
                 print('a valid manifest.yml not found')
