@@ -1,11 +1,11 @@
 #!/bin/bash
 if [ ! -d "~/.local/share/applications" ]; then
     cd ~/.local/share/
-    mkdir applications
+    mkdir -p applications
 fi
 if [ ! -d "~/.local/share/icons" ]; then
     cd ~/.local/share/
-    mkdir icons
+    mkdir -p icons
 fi
 cd $1
 echo "INFO - Skill folder $1"
