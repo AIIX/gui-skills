@@ -63,7 +63,7 @@ fi
 
 fi
 
-if [ -f "$PWD/requirements.txt" ]then
+if [ -f "$PWD/requirements.txt" ];then
     pip install -r requirements.txt
     echo "INFO - Installed Requirements"
     echo "INFO - Refreshing Skill"
