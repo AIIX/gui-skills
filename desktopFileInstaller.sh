@@ -2,6 +2,7 @@
 
 if [ ! -n "$1" ];then
     echo "### DeskopFile Installer Error: Missing main (skill folder) parameter!"
+    sleep 2
     exit 1
 fi
 
@@ -15,7 +16,8 @@ if [ ! -d "~/.local/share/icons" ]; then
     mkdir -p icons
 fi
 
-cd $1 || exit
+if cd $1 
+then
 echo "INFO - Skill folder $1"
 echo "INFO - Installing Desktop Files"
 if [ -d "res/icon" ]; then
@@ -26,3 +28,7 @@ fi
 cd res/desktop
 cp -r * ~/.local/share/applications
 echo "INFO - Desktop File Installed"
+else 
+    echo "### DeskopFile Installer Error: Cannot change direcory!"
+    sleep 2
+fi

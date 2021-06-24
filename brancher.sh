@@ -2,15 +2,17 @@
 
 if [ ! -n "$1" ];then
     echo "### Brancher Error: Missing main (folder) parameter!"
+    sleep 2
     exit 1
 fi
 
 if [ ! -n "$2" ];then
     echo "### Brancher Error: Missing second (branch) parameter!"
+    sleep 2
     exit 1
 fi
 
-cd $1 || exit
+cd /opt/mycroft/skills
 echo "INFO - Skill folder $1"
 echo "INFO - Skill branch $2"
 echo "INFO - Installing GUI Skill Branch"
@@ -68,5 +70,6 @@ if [ -f "$PWD/requirements.txt" ]then
     touch __init__.py
     echo "INFO - Skill Installation Completed"
 else
-    echo "Brancher Error - Skill Installation Not Completed"
+    echo "Brancher Error - Skill Installation Not Completed!"
+    sleep 2
 fi

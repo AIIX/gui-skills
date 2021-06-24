@@ -2,11 +2,13 @@
 
 if [ ! -n "$1" ];then
     echo "### NewsKiller Error: Missing main (name) parameter!"
+    sleep 2
     exit 1
 fi
 
 if [ ! -n "$2" ];then
     echo "### NewsKiller Error: Missing second (skill dir) parameter!"
+    sleep 2
     exit 1
 fi
 
