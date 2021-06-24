@@ -1,4 +1,13 @@
 #!/bin/bash
+
+
+if [ ! -n "$1" ];then
+    echo "### Remover Error: Missing main (skill name) parameter!"
+    exit 1
+fi
+
+cd $1 || exit
+
 echo "INFO - Removing Skill $1"
 if cd /opt/mycroft/skills/$1
 then

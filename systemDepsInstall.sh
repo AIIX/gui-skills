@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ ! -n "$1" ];then
+    echo "### Deps Install Error: Missing main (name) parameter!"
+    exit 1
+fi
+
 if [ "x86_64" = "$(uname -m)" ] ;then
     LIB="/usr/lib64"
 else

@@ -31,6 +31,18 @@ fi
     fi
  fi
 
+if [ ! -n "$1" ];then
+    echo "### AlternativesKiller Error: Missing main (name) parameter!"
+    exit 1
+fi
+
+if [ ! -n "$2" ];then
+    echo "### AlternativesKiller Error: Missing second (skill dir) parameter!"
+    exit 1
+fi
+
+cd $1 || exit
+
 # skills default path, is important
 cd /opt/mycroft/skills
 if [ -z "$2" ]

@@ -1,5 +1,14 @@
 #!/bin/bash
 
+if [ ! -n "$1" ];then
+    echo "### SKiller Error: Missing main (folder) parameter!"
+    exit 1
+fi
+
+if [ ! -n "$2" ];then
+    echo "### SKiller Error: Missing second (branch) parameter!"
+    exit 1
+fi
 
 if [ "x86_64" = "$(uname -m)" ] ;then
     LIB="/usr/lib64"

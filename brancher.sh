@@ -1,5 +1,16 @@
 #!/bin/bash
-cd $1
+
+if [ ! -n "$1" ];then
+    echo "### Brancher Error: Missing main (folder) parameter!"
+    exit 1
+fi
+
+if [ ! -n "$2" ];then
+    echo "### Brancher Error: Missing second (branch) parameter!"
+    exit 1
+fi
+
+cd $1 || exit
 echo "INFO - Skill folder $1"
 echo "INFO - Skill branch $2"
 echo "INFO - Installing GUI Skill Branch"
@@ -42,11 +53,20 @@ fi
     fi
  fi
 
-  source $MYCROFT_CORE/.venv/bin/activate
+ if [ -f $MYCROFT_CORE/.venv/bin/activate ];then
+    source $MYCROFT_CORE/.venv/bin/activate
+ else 
+    echo "### Brancher Error when tried activate Core..."
+ fi
 
 fi
-pip install -r requirements.txt
-echo "INFO - Installed Requirements"
-echo "INFO - Refreshing Skill"
-touch __init__.py
-echo "INFO - Skill Installation Completed"
+
+if [ -f "$PWD/requirements.txt" ]then
+    pip install -r requirements.txt
+    echo "INFO - Installed Requirements"
+    echo "INFO - Refreshing Skill"
+    touch __init__.py
+    echo "INFO - Skill Installation Completed"
+else
+    echo "Brancher Error - Skill Installation Not Completed"
+fi

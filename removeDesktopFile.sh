@@ -1,4 +1,11 @@
 #!/bin/bash
+
+if [ ! -n "$1" ];then
+    echo "### Dektop File Remove Error: Missing main (filename) parameter!"
+    exit 1
+fi
+
+
 echo "INFO - Cleaning Desktop File For $1"
 if cd /opt/mycroft/skills/$1
 then

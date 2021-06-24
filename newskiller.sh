@@ -1,5 +1,15 @@
 #!/bin/bash
 
+if [ ! -n "$1" ];then
+    echo "### NewsKiller Error: Missing main (name) parameter!"
+    exit 1
+fi
+
+if [ ! -n "$2" ];then
+    echo "### NewsKiller Error: Missing second (skill dir) parameter!"
+    exit 1
+fi
+
 if [ "x86_64" = "$(uname -m)" ] ;then
     LIB="/usr/lib64"
 else
