@@ -63,6 +63,7 @@ fi
 
 fi
 
+cd $1
 if [ -f "$PWD/requirements.txt" ];then
     pip install -r requirements.txt
     echo "INFO - Installed Requirements"
@@ -70,6 +71,6 @@ if [ -f "$PWD/requirements.txt" ];then
     touch __init__.py
     echo "INFO - Skill Installation Completed"
 else
-    echo "Brancher Error - Skill Installation Not Completed!"
+    echo "Brancher Error - Missing requirenments.txst in $1 !"
     sleep 2
 fi
