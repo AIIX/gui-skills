@@ -37,12 +37,6 @@ if [ ! -n "$1" ];then
     exit 1
 fi
 
-if [ ! -n "$2" ];then
-    echo "### AlternativesKiller Error: Missing second (skill dir) parameter!"
-    sleep 2
-    exit 1
-fi
-
 # skills default path, is important
 cd /opt/mycroft/skills
 if [ -z "$2" ]
