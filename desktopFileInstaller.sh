@@ -16,7 +16,7 @@ if [ ! -d "~/.local/share/icons" ]; then
     mkdir -p icons
 fi
 
-if cd $1 
+if cd $1 2>/dev/null
 then
 echo "INFO - Skill folder $1"
 echo "INFO - Installing Desktop Files"
