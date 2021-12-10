@@ -39,6 +39,9 @@ fi
  elif [ -x /usr/share/mycroft-core/start-mycroft.sh ] ;then
     cd /usr/share/mycroft-core|| exit
     MYCROFT_CORE=/usr/share/mycroft-core
+ elif [ -x /opt/mycroft-core/start-mycroft.sh ] ;then
+    cd /opt/mycroft-core|| exit
+    MYCROFT_CORE=/opt/mycroft-core
  elif [ -x $HOME/mycroft-core/start-mycroft.sh ];then
     cd "$HOME/mycroft-core" || exit
     MYCROFT_CORE=$HOME/mycroft-core
