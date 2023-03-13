@@ -49,13 +49,13 @@ then
   source .venv/bin/activate
   oname=$(echo $1 | awk -F"/" '{print $5}')
   echo "INFO - Installing GUI Skill: $oname"
-  osm --non-interactive install $1
+  osm install $1 --non-interactive
 ##Stage2 Replace Orginal Skill
 else
   cd ~/.local/share/mycroft/skills/ && rm -rf $2
   cd $MYCROFT_CORE
   source .venv/bin/activate
-  osm --non-interactive install $1
+  osm install $1 --non-interactive
   oname=$(echo $1 | awk -F"/" '{print $5}')
   gname=$(echo $2 | awk -F"." '{print $1}')
   cd ~/.local/share/mycroft/skills/ && mv $oname.* $2
